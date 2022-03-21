@@ -1,0 +1,249 @@
+.container__header {  
+  background-color: #64a9a4; 
+  height: 90px;  
+  display: flex; 
+  align-items: center;       
+}
+
+.container__header__child {
+  width: 1100px; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;     
+}
+
+.logo__header { 
+  width: 80px;  
+}
+
+.container__banner { 
+  background-color: #eeeeee; 
+}
+
+.banner__master {
+  width: 1100px; 
+  height: 400px;  
+  margin: 0 auto;
+  background: url("../assets/img/fortaleza__banner__body.jpeg") no-repeat; 
+  background-size: cover;  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: #fff;
+  font-size: 18px;  
+} 
+
+.lista__menu {
+  display: flex;
+}
+
+.item__li { 
+  margin-right: 20px; 
+}
+
+.link__item {
+  text-decoration: none; 
+  color: #fff;
+}
+
+.container__logo__and__title {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.fortaleza {
+  font-size: 1.3rem; 
+  font-weight: 600;
+  margin-left: 10px; 
+  color: #fff;  
+}
+
+.container__curiosidades {
+  background-color: #eeeeee;  
+}
+
+.container__curiosidades__child {
+  width: 1100px;
+  margin: 0 auto; 
+  background-color: #fff; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.curiosidades_I {  
+  width: 335px;
+  height: 534px; 
+  border-radius: 31px; 
+  margin-right: 20px;
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;  
+}
+
+.curiosidade__especial { 
+  width: 335px;
+  height: 534px; 
+  border-radius: 31px; 
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;  
+}
+
+.curiosidades_I__child {
+  flex: 1;
+  border-top-left-radius: 31px; 
+  border-top-right-radius: 31px;  
+  background: url("../assets/img/beachpark.jpeg");  
+}
+
+.curiosidades_I__childTwo { 
+  flex: 1;  
+  border-bottom-left-radius: 31px; 
+  border-bottom-right-radius: 31px;  
+  background-color: #f5f5f6; 
+  padding-top: 30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; 
+  padding-bottom: 40px;  
+  line-height: 1.5rem; 
+  text-align: justify;  
+}
+
+.title__childTwo {
+  text-align: center; 
+  font-size: 18px; 
+  font-weight: 600;  
+}
+
+.curiosidades_II {
+  width: 335px;
+  height: 534px; 
+  border-radius: 31px; 
+  margin-right: 20px; 
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.curiosidades_II__child { 
+  flex: 1;
+  border-top-left-radius: 31px; 
+  border-top-right-radius: 31px;  
+  background: url("../assets/img/franca.jpeg") no-repeat; 
+  background-size: cover;    
+}
+
+.curiosidades_III { 
+  width: 335px;
+  height: 534px; 
+  border-radius: 31px;  
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;
+} 
+
+.curiosidades_III__child { 
+  flex: 1;
+  border-top-left-radius: 31px; 
+  border-top-right-radius: 31px;  
+  background: url("../assets/img/praia__do__futuro.jpeg") no-repeat;  
+  background-size: cover;    
+}
+
+.container__title__curiosidades {
+  width: 1100px; 
+  margin: 0 auto;
+  background-color: #fff; 
+}
+
+.title__curiosidades {
+  text-align: center;     
+  font-weight: 700; 
+  font-size: 2rem; 
+  margin: 20px auto; 
+  color: #fff; 
+  
+}
+
+.container__title__curiosidades {
+  background-color: #55908c; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 30px;  
+}
+
+.curiosodades__cidade {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.paragrafo {
+  letter-spacing: 0.1rem; 
+  line-height: 1.5rem; 
+  margin: 0 30px;
+  margin-bottom: 1rem; 
+  text-align: justify; 
+} 
+
+.button__tourism { 
+  height: 40px; 
+  color: white;
+  background-color: #64a9a4;   
+  cursor: pointer; 
+  border: none; 
+  border-radius: 20px;    
+} 
+
+a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+.video {
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+.container__footer {
+  background-color: #64a9a4; 
+  height: 180px;    
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+}
+
+.circle__one {  
+  margin-right: 50px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.circle__one__child {
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%; 
+  margin-bottom: 20px; 
+}
+
+.circle__two {
+  width: 100px;
+  height: 100px;  
+  border-radius: 50%;   
+} 
+
+.title__linkedin {
+  text-align: center; 
+  color: #fff;
+}
+
