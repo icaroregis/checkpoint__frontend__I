@@ -368,13 +368,20 @@ a {
     margin-bottom: 70px;
     text-align: center;  
   }
-
 }
 
 @media(max-width: 520px) {
-  .video__project {
-    width: 380px;
+  .paragrafo {
+    letter-spacing: 0; 
+  }
+
+  .video__project { 
+    width: 360px;
     height: 220px; 
+  }
+
+  .container__footer :last-child { 
+    margin-right: 0; 
   }
 }
 
