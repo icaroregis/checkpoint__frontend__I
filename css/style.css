@@ -335,6 +335,40 @@ a {
     display: none; 
   }   
 
+  .home.on {
+    width: 100vw; 
+    height: 100vh;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    background-color: #64a9a4; 
+    z-index: 10; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition-duration: 0.5s; 
+  }
+
+  .on .button__hamburguer {
+    position: absolute; 
+    right: 30px;  
+    top: 42px;
+    cursor: pointer; 
+  }
+
+  .on .nav__bar {
+    display: block; 
+  }
+
+  .on .lista__menu {
+    flex-direction: column; 
+  }
+
+  .on .lista__menu .item__li {
+    margin-bottom: 70px;
+    text-align: center;  
+  }
+
 }
 
 @media(max-width: 520px) {
