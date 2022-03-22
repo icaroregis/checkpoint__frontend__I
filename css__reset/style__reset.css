@@ -19,7 +19,6 @@ h6,
 p,
 blockquote,
 pre,
-a,
 abbr,
 acronym,
 address,
@@ -136,5 +135,5 @@ button {
 
 link, 
 a {
-  border: none;
+  border: none; 
 }

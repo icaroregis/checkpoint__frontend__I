@@ -25,7 +25,7 @@
   width: 1100px; 
   height: 400px;  
   margin: 0 auto;
-  background: url("../assets/img/fortaleza__banner__body.jpeg") no-repeat; 
+  background: url("../assets/img/fortaleza__banner__body.jpeg") no-repeat center;  
   background-size: cover;  
   display: flex;
   justify-content: center;
@@ -81,6 +81,16 @@
   margin-right: 20px;
   display: flex;  
   flex-direction: column; 
+  justify-content: center;   
+}
+
+.curiosidades_II {
+  width: 335px;
+  height: 534px; 
+  border-radius: 31px; 
+  margin-right: 20px;
+  display: flex;  
+  flex-direction: column; 
   justify-content: center;  
 }
 
@@ -97,7 +107,8 @@
   flex: 1;
   border-top-left-radius: 31px; 
   border-top-right-radius: 31px;  
-  background: url("../assets/img/beachpark.jpeg");  
+  background: url("../assets/img/beachpark.jpeg") no-repeat center; 
+  background-size: cover;   
 }
 
 .curiosidades_I__childTwo { 
@@ -136,7 +147,7 @@
   flex: 1;
   border-top-left-radius: 31px; 
   border-top-right-radius: 31px;  
-  background: url("../assets/img/franca.jpeg") no-repeat; 
+  background: url("../assets/img/franca.jpeg") no-repeat center;  
   background-size: cover;    
 }
 
@@ -153,8 +164,8 @@
   flex: 1;
   border-top-left-radius: 31px; 
   border-top-right-radius: 31px;  
-  background: url("../assets/img/praia__do__futuro.jpeg") no-repeat;  
-  background-size: cover;    
+  background: url("../assets/img/praia__do__futuro.jpeg") no-repeat center;  
+  background-size: cover;     
 }
 
 .container__title__curiosidades {
@@ -184,7 +195,7 @@
 .curiosodades__cidade {
   display: flex; 
   justify-content: center;
-  align-items: center; 
+  align-items: center;  
 }
 
 .paragrafo {
@@ -246,4 +257,78 @@ a {
   text-align: center; 
   color: #fff;
 }
+
+.video__project {
+  height: 400px;
+  width: 700px; 
+}
+
+@media(max-width: 1100px) {
+  .container__header__child {
+    width: 100%; 
+  }
+
+  .banner__master {
+    width: 99.9%;   
+  } 
+
+  .container__curiosidades__child {
+    width: 100%; 
+  }
+
+  .container__title__curiosidades {
+    width: 100%;  
+  }
+
+  .curiosodades__cidade {  
+    flex-wrap: wrap; 
+  } 
+}
+
+@media(max-width: 1063px) {
+  .curiosidade__especial {
+    margin-top: 40px;  
+  }
+
+  .curiosidades_I {
+    margin-left: 20px;   
+  }
+}
+
+@media(max-width: 748px) { 
+  .curiosidades_II {
+    margin-top: 40px;  
+  }
+}
+
+@media(max-width: 708px) {
+  .curiosidades_I {
+    margin-right: 0;
+    margin-left: 0; 
+  }
+
+  .curiosidades_II {
+    margin-right: 0;  
+  }
+
+  .curiosodades__cidade {  
+    flex-direction: column; 
+  } 
+}
+
+@media(max-width: 700px) {
+  .video__project {
+    width: 500px;
+    height: 250px; 
+  }
+}
+
+@media(max-width: 520px) {
+  .video__project {
+    width: 380px;
+    height: 220px; 
+  }
+}
+
+
 
