@@ -35,17 +35,31 @@
 } 
 
 .lista__menu {
+  width: 350px;  
   display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  box-sizing: border-box; 
 }
 
 .item__li { 
   margin-right: 20px; 
+  box-sizing: border-box;  
 }
 
 .link__item {
   text-decoration: none; 
   font-weight: 500;   
+  border-radius: 20px; 
+  padding: 5px 10px;   
+  box-sizing: border-box;    
 } 
+
+.link__item:hover {  
+  box-sizing: border-box;   
+  background-color: #fff; 
+  color: #64a9a4;
+}
 
 .container__logo__and__title {
   display: flex;
