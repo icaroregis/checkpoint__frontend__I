@@ -408,7 +408,7 @@ a {
     transition-duration: 0.5s; 
   }
 
-  .on .button__hamburguer {
+  .on .button__hamburguer {  
     position: absolute; 
     right: 0px;  
     top: 23px;
