@@ -51,8 +51,9 @@
   text-decoration: none; 
   font-weight: 500;   
   border-radius: 20px; 
-  padding: 5px 10px;   
-  box-sizing: border-box;    
+  padding: 4px 10px;   
+  box-sizing: border-box; 
+  transition: 0.3s;    
 } 
 
 .link__item:hover {  
