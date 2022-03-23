@@ -2,7 +2,11 @@
   background-color: #64a9a4; 
   height: 90px;  
   display: flex; 
-  align-items: center;       
+  align-items: center;  
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.6);        
+  z-index: 10;
+  position: sticky; 
+  top: 0; 
 }
 
 .container__header__child {
@@ -265,13 +269,16 @@ a {
 }
 
 .circle__one {  
-  margin-right: 50px; 
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%; 
+  margin-right: 50px;  
   display: flex; 
   justify-content: center; 
-  align-items: center; 
-  background-color: transparent; 
+  align-items: center;  
   cursor: pointer; 
   transition: 0.3s;   
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.6);  
 }
 
 .circle__one:hover {   
@@ -287,9 +294,22 @@ a {
 .circle__two {
   width: 100px;
   height: 100px;  
-  border-radius: 50%;    
+  border-radius: 50%;  
+  cursor: pointer; 
+  transition: 0.3s;   
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.6);    
 } 
 
+.circle__two:hover {    
+  transform: scale(1.1);   
+}
+
+.circle__one__child {
+  width: 100px;
+  height: 100px;  
+  border-radius: 50%;   
+}
+ 
 .title__linkedin {
   text-align: center; 
   color: #fff;
