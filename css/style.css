@@ -44,8 +44,8 @@
 
 .link__item {
   text-decoration: none; 
-  color: #fff;
-}
+  font-weight: 500;   
+} 
 
 .container__logo__and__title {
   display: flex;
