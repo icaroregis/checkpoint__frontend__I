@@ -14,7 +14,8 @@
   margin: 0 auto; 
   display: flex;
   justify-content: space-between;   
-  align-items: center;     
+  align-items: center; 
+  position: relative;     
 }
 
 .logo__header { 
@@ -322,6 +323,7 @@ a {
 
 .button__hamburguer {
   display: none; 
+  cursor: pointer; 
 }
 
 @media(max-width: 1100px) {
@@ -385,7 +387,7 @@ a {
 
   .button__hamburguer {
     display: block;
-     margin-right: 20px; 
+    margin-right: 20px;  
   } 
 
   .nav__bar {
@@ -408,9 +410,9 @@ a {
 
   .on .button__hamburguer {
     position: absolute; 
-    right: 30px;  
-    top: 42px;
-    cursor: pointer; 
+    right: 0px;  
+    top: 23px;
+    cursor: pointer;  
   }
 
   .on .nav__bar {
